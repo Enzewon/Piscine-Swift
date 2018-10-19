@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B00C98CC599ADAE7A20727F6C01DB5B /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F45CDF738206B404E2D8836FF98D3 /* Article+CoreDataClass.swift */; };
+		29B6E02CE6023ED3F50583FD753D1A9B /* Pods-dvdovenk2018_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FE797B19F6790AFDCB7F2E55E56D2 /* Pods-dvdovenk2018_Tests-dummy.m */; };
+		3116B0F60C03087C12A44296A98FDDE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CA1AF17A32077642F41D8B1C427354 /* Foundation.framework */; };
+		380AD3753883C1646C6683575F82F006 /* Article+CoreDataClass.swift in Resources */ = {isa = PBXBuildFile; fileRef = 233F45CDF738206B404E2D8836FF98D3 /* Article+CoreDataClass.swift */; };
+		3D978AB50F31412C318B7B9C8A93782E /* dvdovenk2018.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48E8F2444D4F072C9880B11BDE4AB034 /* dvdovenk2018.bundle */; };
+		58A11EB80BAF40B5476B94B1D592EBB5 /* dvdovenk2018-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC8CB5A03CF422F9514E4AFA85C6521 /* dvdovenk2018-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8004757463AFF71015312287132E653F /* dvdovenk2018-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC69462CC0569014C90A70D1A7B2D6E2 /* dvdovenk2018-dummy.m */; };
+		A79723276EB7F491D22D502CF1B8F9CB /* ArticleManager.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8D464530BAACAC2B26D2CB1EA3D59D17 /* ArticleManager.swift */; };
+		B509424CDBC6C569C853F37F56A4212C /* Pods-dvdovenk2018_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2EC68427646124603AC5A51DDACFCA /* Pods-dvdovenk2018_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC7FE6C186AC33215B1F8F03836A0BA3 /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D464530BAACAC2B26D2CB1EA3D59D17 /* ArticleManager.swift */; };
+		BD6024345DAAB0B0F1D84FAAE5C42B92 /* Coredata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B70FFAB24DBCC5610230C6F87E4C13 /* Coredata.framework */; };
+		BF2EB4B8365240AEA379C599CCA67057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CA1AF17A32077642F41D8B1C427354 /* Foundation.framework */; };
+		C8BE20E26FE121B72A22179C7184F5A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CA1AF17A32077642F41D8B1C427354 /* Foundation.framework */; };
+		D9092BAD4AFE64EDCE449DD2814DB8C2 /* Pods-dvdovenk2018_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5BC60790523F91E60C158E657C7E80 /* Pods-dvdovenk2018_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0C29F4A2172466A008B59CD /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28564751108A3081857774173F50B7F7 /* article.xcdatamodeld */; };
+		E396E06686CCADF6882B8F2E3D8EF0A8 /* Pods-dvdovenk2018_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E390839009AF1AFDA7027CD533208E /* Pods-dvdovenk2018_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ED6EA2645949A9E99A5867FD6E49E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A3173D20A3D88861B03F83C9632C759;
+			remoteInfo = "dvdovenk2018-dvdovenk2018";
+		};
+		B1D0E8D197C3126EC9837086ECC6A972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62362189F83F5B1D0BE503E885DD2550;
+			remoteInfo = "Pods-dvdovenk2018_Example";
+		};
+		C9FD1ABC181404F76008F5C175577C20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56BC7BA285EA72C49B4A211DA2874A4;
+			remoteInfo = dvdovenk2018;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04314352AE6DB1F9A0F4A4DF2C95D870 /* Pods-dvdovenk2018_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dvdovenk2018_Example.release.xcconfig"; sourceTree = "<group>"; };
+		10B79C5F02E9E3BE80CA31E7C3B9925A /* dvdovenk2018-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dvdovenk2018-prefix.pch"; sourceTree = "<group>"; };
+		13663CCCCCA8C04BD3CAC3AA8B807589 /* Pods-dvdovenk2018_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dvdovenk2018_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1AC8CB5A03CF422F9514E4AFA85C6521 /* dvdovenk2018-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dvdovenk2018-umbrella.h"; sourceTree = "<group>"; };
+		233F45CDF738206B404E2D8836FF98D3 /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataClass.swift"; path = "dvdovenk2018/Classes/Article+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2E5A022897D91B1F6AF645FF18A1BEF3 /* Pods_dvdovenk2018_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dvdovenk2018_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E92150761E337CCED7DD7A9A228158C /* dvdovenk2018.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dvdovenk2018.xcconfig; sourceTree = "<group>"; };
+		3C071CFA591BBA5A002B6ECC24D6DD0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		41E134C25C9355AA974DA75F393350C9 /* Pods-dvdovenk2018_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dvdovenk2018_Example.modulemap"; sourceTree = "<group>"; };
+		48E8F2444D4F072C9880B11BDE4AB034 /* dvdovenk2018.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dvdovenk2018.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A338FBDDC2F243D3D618E1F71092544 /* Pods-dvdovenk2018_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dvdovenk2018_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B3FE797B19F6790AFDCB7F2E55E56D2 /* Pods-dvdovenk2018_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dvdovenk2018_Tests-dummy.m"; sourceTree = "<group>"; };
+		4EB2F3A55EBFA4F59F5B490B3C5D25B9 /* ResourceBundle-dvdovenk2018-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-dvdovenk2018-Info.plist"; sourceTree = "<group>"; };
+		520E7CB5732E4CF2F5114633ED871FC8 /* Pods-dvdovenk2018_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dvdovenk2018_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		52CF9E0086AF2D1F066DD66FC2477619 /* Pods-dvdovenk2018_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dvdovenk2018_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		695BA593B47E953E7E5A89D77A69E2C5 /* Pods-dvdovenk2018_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dvdovenk2018_Tests-resources.sh"; sourceTree = "<group>"; };
+		6CE349E40E57A0D9C9410A53936063F8 /* dvdovenk2018.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = dvdovenk2018.modulemap; sourceTree = "<group>"; };
+		6D2FF75E866C5D699F16CF1FA0E6313E /* Pods_dvdovenk2018_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dvdovenk2018_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E84D310FCDCBB690EEDE8D804E9A235 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815A989997F634FDBB4F91360767BF36 /* dvdovenk2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = dvdovenk2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CE53950A3B96287A2E40E8D6BF0EBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B5637665232E1CFF0696DE5213ADB9F /* Pods-dvdovenk2018_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dvdovenk2018_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8CA4B18D9D1B98722705837810EAE6A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8D464530BAACAC2B26D2CB1EA3D59D17 /* ArticleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArticleManager.swift; path = dvdovenk2018/Classes/ArticleManager.swift; sourceTree = "<group>"; };
+		8EC169B642932806B8E0F0ADE654265F /* Pods-dvdovenk2018_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dvdovenk2018_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A90B239F458B246651D75916830FC1FC /* Pods-dvdovenk2018_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dvdovenk2018_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B31760941CBD64FF8A564FB8349C75F6 /* article.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
+		B4B70FFAB24DBCC5610230C6F87E4C13 /* Coredata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Coredata.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Coredata.framework; sourceTree = DEVELOPER_DIR; };
+		BA2EC68427646124603AC5A51DDACFCA /* Pods-dvdovenk2018_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dvdovenk2018_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BD42733B0BED4DB19E971B27B36DB7A8 /* Pods-dvdovenk2018_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dvdovenk2018_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8CA1AF17A32077642F41D8B1C427354 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB5E2162705CC0C9EA89D90908E0AD51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEAEFD52B856BB29E9268FC6B757C12 /* Pods-dvdovenk2018_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dvdovenk2018_Example-resources.sh"; sourceTree = "<group>"; };
+		D617AD2CA7845BB3DA0E5710DA775DAA /* Pods-dvdovenk2018_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dvdovenk2018_Tests.modulemap"; sourceTree = "<group>"; };
+		D748CB2BBB162C44501781150B2FF3AB /* Pods-dvdovenk2018_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dvdovenk2018_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D8E390839009AF1AFDA7027CD533208E /* Pods-dvdovenk2018_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dvdovenk2018_Example-dummy.m"; sourceTree = "<group>"; };
+		DA7AB048AC9B8EC7387F938A8D59054A /* dvdovenk2018.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = dvdovenk2018.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EC69462CC0569014C90A70D1A7B2D6E2 /* dvdovenk2018-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "dvdovenk2018-dummy.m"; sourceTree = "<group>"; };
+		FF5BC60790523F91E60C158E657C7E80 /* Pods-dvdovenk2018_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dvdovenk2018_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BE7742F4B58F7932C9483B667A0E383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B76F9E1181329FF323984FB43E49D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2EB4B8365240AEA379C599CCA67057 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4383127374906B2D623F90460774F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BE20E26FE121B72A22179C7184F5A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF33977D0A108952F12282492B31B385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6024345DAAB0B0F1D84FAAE5C42B92 /* Coredata.framework in Frameworks */,
+				3116B0F60C03087C12A44296A98FDDE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1335E5F4EA80AF4B1D3CAE1F5A5203F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48E8F2444D4F072C9880B11BDE4AB034 /* dvdovenk2018.bundle */,
+				815A989997F634FDBB4F91360767BF36 /* dvdovenk2018.framework */,
+				2E5A022897D91B1F6AF645FF18A1BEF3 /* Pods_dvdovenk2018_Example.framework */,
+				6D2FF75E866C5D699F16CF1FA0E6313E /* Pods_dvdovenk2018_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150F4793992779C07C7DE3A96B830222 /* dvdovenk2018 */ = {
+			isa = PBXGroup;
+			children = (
+				233F45CDF738206B404E2D8836FF98D3 /* Article+CoreDataClass.swift */,
+				8D464530BAACAC2B26D2CB1EA3D59D17 /* ArticleManager.swift */,
+				4198149E5C96FBD7AC79139FB37D5EE9 /* Pod */,
+				98B39067CA18EFDDE6FFF3911DCEC672 /* Resources */,
+				AA2F09FC4E5C5D908EFF0004164680D6 /* Support Files */,
+			);
+			name = dvdovenk2018;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		417917D437CC2E6036E9E2A89577774B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7CC497D60FDDFDDD96F3B7D1AD1257B /* Pods-dvdovenk2018_Example */,
+				4BD6CBF262E71E2F0BDABB3CD43C9349 /* Pods-dvdovenk2018_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4198149E5C96FBD7AC79139FB37D5EE9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DA7AB048AC9B8EC7387F938A8D59054A /* dvdovenk2018.podspec */,
+				3C071CFA591BBA5A002B6ECC24D6DD0F /* LICENSE */,
+				8CA4B18D9D1B98722705837810EAE6A0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC8325D72F7AA65A0A46E5D61B8967 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BD6CBF262E71E2F0BDABB3CD43C9349 /* Pods-dvdovenk2018_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5E2162705CC0C9EA89D90908E0AD51 /* Info.plist */,
+				D617AD2CA7845BB3DA0E5710DA775DAA /* Pods-dvdovenk2018_Tests.modulemap */,
+				52CF9E0086AF2D1F066DD66FC2477619 /* Pods-dvdovenk2018_Tests-acknowledgements.markdown */,
+				BD42733B0BED4DB19E971B27B36DB7A8 /* Pods-dvdovenk2018_Tests-acknowledgements.plist */,
+				4B3FE797B19F6790AFDCB7F2E55E56D2 /* Pods-dvdovenk2018_Tests-dummy.m */,
+				D748CB2BBB162C44501781150B2FF3AB /* Pods-dvdovenk2018_Tests-frameworks.sh */,
+				695BA593B47E953E7E5A89D77A69E2C5 /* Pods-dvdovenk2018_Tests-resources.sh */,
+				BA2EC68427646124603AC5A51DDACFCA /* Pods-dvdovenk2018_Tests-umbrella.h */,
+				A90B239F458B246651D75916830FC1FC /* Pods-dvdovenk2018_Tests.debug.xcconfig */,
+				13663CCCCCA8C04BD3CAC3AA8B807589 /* Pods-dvdovenk2018_Tests.release.xcconfig */,
+			);
+			name = "Pods-dvdovenk2018_Tests";
+			path = "Target Support Files/Pods-dvdovenk2018_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				ACA6BC9718E941F5C0E4C623FD573449 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				1335E5F4EA80AF4B1D3CAE1F5A5203F6 /* Products */,
+				417917D437CC2E6036E9E2A89577774B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98B39067CA18EFDDE6FFF3911DCEC672 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28564751108A3081857774173F50B7F7 /* article.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A7CC497D60FDDFDDD96F3B7D1AD1257B /* Pods-dvdovenk2018_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7E84D310FCDCBB690EEDE8D804E9A235 /* Info.plist */,
+				41E134C25C9355AA974DA75F393350C9 /* Pods-dvdovenk2018_Example.modulemap */,
+				4A338FBDDC2F243D3D618E1F71092544 /* Pods-dvdovenk2018_Example-acknowledgements.markdown */,
+				520E7CB5732E4CF2F5114633ED871FC8 /* Pods-dvdovenk2018_Example-acknowledgements.plist */,
+				D8E390839009AF1AFDA7027CD533208E /* Pods-dvdovenk2018_Example-dummy.m */,
+				8B5637665232E1CFF0696DE5213ADB9F /* Pods-dvdovenk2018_Example-frameworks.sh */,
+				CEEAEFD52B856BB29E9268FC6B757C12 /* Pods-dvdovenk2018_Example-resources.sh */,
+				FF5BC60790523F91E60C158E657C7E80 /* Pods-dvdovenk2018_Example-umbrella.h */,
+				8EC169B642932806B8E0F0ADE654265F /* Pods-dvdovenk2018_Example.debug.xcconfig */,
+				04314352AE6DB1F9A0F4A4DF2C95D870 /* Pods-dvdovenk2018_Example.release.xcconfig */,
+			);
+			name = "Pods-dvdovenk2018_Example";
+			path = "Target Support Files/Pods-dvdovenk2018_Example";
+			sourceTree = "<group>";
+		};
+		AA2F09FC4E5C5D908EFF0004164680D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE349E40E57A0D9C9410A53936063F8 /* dvdovenk2018.modulemap */,
+				2E92150761E337CCED7DD7A9A228158C /* dvdovenk2018.xcconfig */,
+				EC69462CC0569014C90A70D1A7B2D6E2 /* dvdovenk2018-dummy.m */,
+				10B79C5F02E9E3BE80CA31E7C3B9925A /* dvdovenk2018-prefix.pch */,
+				1AC8CB5A03CF422F9514E4AFA85C6521 /* dvdovenk2018-umbrella.h */,
+				82CE53950A3B96287A2E40E8D6BF0EBF /* Info.plist */,
+				4EB2F3A55EBFA4F59F5B490B3C5D25B9 /* ResourceBundle-dvdovenk2018-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/dvdovenk2018";
+			sourceTree = "<group>";
+		};
+		ACA6BC9718E941F5C0E4C623FD573449 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				150F4793992779C07C7DE3A96B830222 /* dvdovenk2018 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CDEC8325D72F7AA65A0A46E5D61B8967 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4B70FFAB24DBCC5610230C6F87E4C13 /* Coredata.framework */,
+				C8CA1AF17A32077642F41D8B1C427354 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10A2E618D4FBC862F890420234255883 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B509424CDBC6C569C853F37F56A4212C /* Pods-dvdovenk2018_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A944573673C270B8ADBBD3A96ADEA6AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9092BAD4AFE64EDCE449DD2814DB8C2 /* Pods-dvdovenk2018_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA0481B61FD6EF85F38B0AE8B1D9D93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A11EB80BAF40B5476B94B1D592EBB5 /* dvdovenk2018-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A81A623B4F6AF86827094D80F59BED9 /* Pods-dvdovenk2018_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7BC8699A016E8F32BF005C0F71BDA59 /* Build configuration list for PBXNativeTarget "Pods-dvdovenk2018_Tests" */;
+			buildPhases = (
+				13E69D02194AAB3DE7959D09BF7DBCF6 /* Sources */,
+				CB4383127374906B2D623F90460774F4 /* Frameworks */,
+				10A2E618D4FBC862F890420234255883 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C078252E3B1D093B020DE86F33E8C5CD /* PBXTargetDependency */,
+			);
+			name = "Pods-dvdovenk2018_Tests";
+			productName = "Pods-dvdovenk2018_Tests";
+			productReference = 6D2FF75E866C5D699F16CF1FA0E6313E /* Pods_dvdovenk2018_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A3173D20A3D88861B03F83C9632C759 /* dvdovenk2018-dvdovenk2018 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82753F386BE14840D2951DE84272336 /* Build configuration list for PBXNativeTarget "dvdovenk2018-dvdovenk2018" */;
+			buildPhases = (
+				2445DA000621E4A94EC65ADC24FEA2F8 /* Sources */,
+				8BE7742F4B58F7932C9483B667A0E383 /* Frameworks */,
+				F83C66BEF981B5ABB7F898AE99E28B83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dvdovenk2018-dvdovenk2018";
+			productName = "dvdovenk2018-dvdovenk2018";
+			productReference = 48E8F2444D4F072C9880B11BDE4AB034 /* dvdovenk2018.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		62362189F83F5B1D0BE503E885DD2550 /* Pods-dvdovenk2018_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B124CBC3866915D69E0C785A0AF5B83 /* Build configuration list for PBXNativeTarget "Pods-dvdovenk2018_Example" */;
+			buildPhases = (
+				F49F213EC08FC32AE6E5221FA7DB5E9D /* Sources */,
+				C9B76F9E1181329FF323984FB43E49D0 /* Frameworks */,
+				A944573673C270B8ADBBD3A96ADEA6AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				855BDAE8BFD64E969DC9DC016DF595DD /* PBXTargetDependency */,
+			);
+			name = "Pods-dvdovenk2018_Example";
+			productName = "Pods-dvdovenk2018_Example";
+			productReference = 2E5A022897D91B1F6AF645FF18A1BEF3 /* Pods_dvdovenk2018_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F56BC7BA285EA72C49B4A211DA2874A4 /* dvdovenk2018 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FCDC10EC8A9F87857D890749EFF0B8 /* Build configuration list for PBXNativeTarget "dvdovenk2018" */;
+			buildPhases = (
+				13B7BA60430146FA433682D90C77CD9B /* Sources */,
+				CF33977D0A108952F12282492B31B385 /* Frameworks */,
+				532DBECF6A64DDBAB3E5B383324DD9C6 /* Resources */,
+				FCA0481B61FD6EF85F38B0AE8B1D9D93 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				720B101C48EB02ACBAA1471C3B1890D7 /* PBXTargetDependency */,
+			);
+			name = dvdovenk2018;
+			productName = dvdovenk2018;
+			productReference = 815A989997F634FDBB4F91360767BF36 /* dvdovenk2018.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1335E5F4EA80AF4B1D3CAE1F5A5203F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56BC7BA285EA72C49B4A211DA2874A4 /* dvdovenk2018 */,
+				3A3173D20A3D88861B03F83C9632C759 /* dvdovenk2018-dvdovenk2018 */,
+				62362189F83F5B1D0BE503E885DD2550 /* Pods-dvdovenk2018_Example */,
+				0A81A623B4F6AF86827094D80F59BED9 /* Pods-dvdovenk2018_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		532DBECF6A64DDBAB3E5B383324DD9C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380AD3753883C1646C6683575F82F006 /* Article+CoreDataClass.swift in Resources */,
+				A79723276EB7F491D22D502CF1B8F9CB /* ArticleManager.swift in Resources */,
+				3D978AB50F31412C318B7B9C8A93782E /* dvdovenk2018.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83C66BEF981B5ABB7F898AE99E28B83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B7BA60430146FA433682D90C77CD9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C29F4A2172466A008B59CD /* article.xcdatamodeld in Sources */,
+				1B00C98CC599ADAE7A20727F6C01DB5B /* Article+CoreDataClass.swift in Sources */,
+				BC7FE6C186AC33215B1F8F03836A0BA3 /* ArticleManager.swift in Sources */,
+				8004757463AFF71015312287132E653F /* dvdovenk2018-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E69D02194AAB3DE7959D09BF7DBCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B6E02CE6023ED3F50583FD753D1A9B /* Pods-dvdovenk2018_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2445DA000621E4A94EC65ADC24FEA2F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49F213EC08FC32AE6E5221FA7DB5E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E396E06686CCADF6882B8F2E3D8EF0A8 /* Pods-dvdovenk2018_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		720B101C48EB02ACBAA1471C3B1890D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "dvdovenk2018-dvdovenk2018";
+			target = 3A3173D20A3D88861B03F83C9632C759 /* dvdovenk2018-dvdovenk2018 */;
+			targetProxy = 2ED6EA2645949A9E99A5867FD6E49E6F /* PBXContainerItemProxy */;
+		};
+		855BDAE8BFD64E969DC9DC016DF595DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = dvdovenk2018;
+			target = F56BC7BA285EA72C49B4A211DA2874A4 /* dvdovenk2018 */;
+			targetProxy = C9FD1ABC181404F76008F5C175577C20 /* PBXContainerItemProxy */;
+		};
+		C078252E3B1D093B020DE86F33E8C5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-dvdovenk2018_Example";
+			target = 62362189F83F5B1D0BE503E885DD2550 /* Pods-dvdovenk2018_Example */;
+			targetProxy = B1D0E8D197C3126EC9837086ECC6A972 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6A1F6C824E3B79C43A6EDC4F928122D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13663CCCCCA8C04BD3CAC3AA8B807589 /* Pods-dvdovenk2018_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-dvdovenk2018_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dvdovenk2018_Tests/Pods-dvdovenk2018_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B67C437A9A584A4AE7368B62F07D7A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E92150761E337CCED7DD7A9A228158C /* dvdovenk2018.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/dvdovenk2018/dvdovenk2018-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/dvdovenk2018/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/dvdovenk2018/dvdovenk2018.modulemap";
+				PRODUCT_MODULE_NAME = dvdovenk2018;
+				PRODUCT_NAME = dvdovenk2018;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74130503240D846388391BEFD584DD56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E92150761E337CCED7DD7A9A228158C /* dvdovenk2018.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/dvdovenk2018";
+				INFOPLIST_FILE = "Target Support Files/dvdovenk2018/ResourceBundle-dvdovenk2018-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = dvdovenk2018;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7837F4EA49F229A5DFDA981C19A744CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E92150761E337CCED7DD7A9A228158C /* dvdovenk2018.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/dvdovenk2018";
+				INFOPLIST_FILE = "Target Support Files/dvdovenk2018/ResourceBundle-dvdovenk2018-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = dvdovenk2018;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7ECF7E854AF62160B13B9BA1BDC60217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E92150761E337CCED7DD7A9A228158C /* dvdovenk2018.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/dvdovenk2018/dvdovenk2018-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/dvdovenk2018/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/dvdovenk2018/dvdovenk2018.modulemap";
+				PRODUCT_MODULE_NAME = dvdovenk2018;
+				PRODUCT_NAME = dvdovenk2018;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		935BBC3C8197AF340A89F4D7B6CE336F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EC169B642932806B8E0F0ADE654265F /* Pods-dvdovenk2018_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-dvdovenk2018_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dvdovenk2018_Example/Pods-dvdovenk2018_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF353F41285A09ACFFA341DDFBF654B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04314352AE6DB1F9A0F4A4DF2C95D870 /* Pods-dvdovenk2018_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-dvdovenk2018_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dvdovenk2018_Example/Pods-dvdovenk2018_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA6AB8E5FA59A1DF2116AC8883422CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90B239F458B246651D75916830FC1FC /* Pods-dvdovenk2018_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-dvdovenk2018_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dvdovenk2018_Tests/Pods-dvdovenk2018_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B124CBC3866915D69E0C785A0AF5B83 /* Build configuration list for PBXNativeTarget "Pods-dvdovenk2018_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935BBC3C8197AF340A89F4D7B6CE336F /* Debug */,
+				CF353F41285A09ACFFA341DDFBF654B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FCDC10EC8A9F87857D890749EFF0B8 /* Build configuration list for PBXNativeTarget "dvdovenk2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ECF7E854AF62160B13B9BA1BDC60217 /* Debug */,
+				6B67C437A9A584A4AE7368B62F07D7A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7BC8699A016E8F32BF005C0F71BDA59 /* Build configuration list for PBXNativeTarget "Pods-dvdovenk2018_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6AB8E5FA59A1DF2116AC8883422CC1 /* Debug */,
+				6A1F6C824E3B79C43A6EDC4F928122D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82753F386BE14840D2951DE84272336 /* Build configuration list for PBXNativeTarget "dvdovenk2018-dvdovenk2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74130503240D846388391BEFD584DD56 /* Debug */,
+				7837F4EA49F229A5DFDA981C19A744CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28564751108A3081857774173F50B7F7 /* article.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B31760941CBD64FF8A564FB8349C75F6 /* article.xcdatamodel */,
+			);
+			currentVersion = B31760941CBD64FF8A564FB8349C75F6 /* article.xcdatamodel */;
+			name = article.xcdatamodeld;
+			path = dvdovenk2018/Classes/article.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

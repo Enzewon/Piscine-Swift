@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'dvdovenk2018_Example' do
+  pod 'dvdovenk2018', :path => '../'
+
+  target 'dvdovenk2018_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

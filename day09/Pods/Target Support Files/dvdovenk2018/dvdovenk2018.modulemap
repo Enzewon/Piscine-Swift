@@ -1,0 +1,6 @@
+framework module dvdovenk2018 {
+  umbrella header "dvdovenk2018-umbrella.h"
+
+  export *
+  module * { export * }
+}

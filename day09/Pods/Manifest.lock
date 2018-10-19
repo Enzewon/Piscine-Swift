@@ -1,0 +1,21 @@
+PODS:
+  - dvdovenk2018 (0.1.0)
+
+DEPENDENCIES:
+  - dvdovenk2018 (from `https://gitlab.com/Enzewon/dvdovenk2018.git`)
+
+EXTERNAL SOURCES:
+  dvdovenk2018:
+    :git: https://gitlab.com/Enzewon/dvdovenk2018.git
+
+CHECKOUT OPTIONS:
+  dvdovenk2018:
+    :commit: 0849d2397e8c1ea43c05195e6bc3f81b1be36331
+    :git: https://gitlab.com/Enzewon/dvdovenk2018.git
+
+SPEC CHECKSUMS:
+  dvdovenk2018: 8d8b5d40c33c387b8e7420af81a00a75714c7497
+
+PODFILE CHECKSUM: a70cbee673d69ec5abb2f0bd317c65dd0830ed9e
+
+COCOAPODS: 1.5.3

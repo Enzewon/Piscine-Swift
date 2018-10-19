@@ -1,0 +1,29 @@
+{
+  "name": "dvdovenk2018",
+  "version": "0.1.0",
+  "summary": "CoreData Manager",
+  "description": "CoreData management",
+  "homepage": "https://gitlab.com/Enzewon/dvdovenk2018",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Enzewon": "enzewon@gmail.com"
+  },
+  "source": {
+    "git": "https://gitlab.com/Enzewon/dvdovenk2018.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resources": "dvdovenk2018/**/*.{swift, xcdatamodeld}",
+  "source_files": "dvdovenk2018/**/*.{swift, xcdatamodeld}",
+  "resource_bundles": {
+    "dvdovenk2018": [
+      "dvdovenk2018/Classes/**/*.xcdatamodeld"
+    ]
+  },
+  "frameworks": "Coredata"
+}

@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Take photo"; ObjectID = "Dyy-U1-PEO"; */
+"Dyy-U1-PEO.normalTitle" = "Зняти фото";
+
+/* Class = "UITextField"; placeholder = "Enter your title"; ObjectID = "asX-dO-Am5"; */
+"asX-dO-Am5.placeholder" = "Введіть вашу назву";
+
+/* Class = "UILabel"; text = "Content"; ObjectID = "enG-AV-l7f"; */
+"enG-AV-l7f.text" = "Зміст";
+
+/* Class = "UIButton"; normalTitle = "Choose photo"; ObjectID = "p0u-2K-14F"; */
+"p0u-2K-14F.normalTitle" = "Оберіть фото";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "wua-VP-oqy"; */
+"wua-VP-oqy.text" = "Назва";

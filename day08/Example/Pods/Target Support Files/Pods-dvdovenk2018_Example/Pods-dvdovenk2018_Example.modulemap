@@ -1,0 +1,6 @@
+framework module Pods_dvdovenk2018_Example {
+  umbrella header "Pods-dvdovenk2018_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

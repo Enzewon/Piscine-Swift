@@ -1,0 +1,16 @@
+PODS:
+  - dvdovenk2018 (0.1.0)
+
+DEPENDENCIES:
+  - dvdovenk2018 (from `../`)
+
+EXTERNAL SOURCES:
+  dvdovenk2018:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  dvdovenk2018: 186f8145a8bbbed6a3022fb2bd85509f0581f0b8
+
+PODFILE CHECKSUM: 1edc7169cbf4f1bfaad99343318ed200143f3f09
+
+COCOAPODS: 1.5.3
